@@ -52,7 +52,7 @@ install:
   # This is not the best place to put this but before_test didn't work.
   - cmd: "move tests\\config.yaml config.yaml"
   # Generate test data
-  - cmd: "python make_test_data.py"
+  - cmd: "make_test_data.py"
 
 build: off
 
