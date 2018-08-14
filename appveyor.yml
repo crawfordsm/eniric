@@ -57,7 +57,7 @@ install:
 build: off
 
 test_script:
-  - cmd: "pytest --cov=. --cov-report term-missing --durations 5"
+  - cmd: "pytest --cov=. --cov-report term-missing --durations 10"
   - cmd: "coverage xml -i"
 
 after_test:
